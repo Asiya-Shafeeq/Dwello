@@ -1,0 +1,894 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Montserrat-Bold' ;
+}
+
+
+@font-face {
+    font-family:'Montserrat-Black' ;
+    src: url(../font/fontello/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family:'Montserrat-Bold' ;
+    src: url(../font/fontello/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family:'Montserrat-Light' ;
+    src: url(../font/fontello/Montserrat-Light.ttf);
+}
+ul{
+    display: flex;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.wrapper{
+    margin: 0 4rem;
+}
+#home{
+    padding-bottom: 5rem;
+}
+#home .wrapper{
+    margin: 0;
+}
+#home div.box{
+    background-color: #FEF7F2;
+    padding: 0 4rem;
+}
+#home header{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home header .middle{
+
+}
+#home header .middle ul{
+
+}
+#home header .middle ul li{
+    margin-right: 3rem;
+}
+#home header .middle ul li:last-child{
+    margin-right: 0;
+}
+#home header .middle ul li a{
+    color: #4F3527;
+}
+#spotlight .meain .right{
+    width: 75%;
+}
+#home header .left{
+    display: block;
+}
+#home header .right ul li {
+    margin-right: 1rem;
+}
+#home header .right ul li:last-child{
+    margin-right: 0;
+}
+#home header .right ul li a.search{
+    width: 90%;
+    display: block;
+}
+#home header .right ul li a.button {
+    padding: 10px;
+    background-color: #2B1B12;
+    color: #fff;
+    border-radius: 5px;
+}
+#spotlight{
+}
+#spotlight .meain{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#spotlight .meain .left{
+    width: 425px;
+    padding-top: 10rem;
+}
+#spotlight .meain .left h1{
+    font-size: 45px;
+    margin-bottom: 2rem;
+}
+#spotlight .meain .left p{
+    font-size: 15px;
+    margin-bottom: 4rem;
+}
+#spotlight .meain .left a.button{
+    padding: 10px 50px;
+    color: #fff;
+    background-color: #151515;
+    border-radius: 5px;
+}
+#spotlight .bottom{
+    margin-left: 20%;
+    padding: 2rem;
+    text-align: center;
+    background-color: #DDC7BB;
+    width: 48%;
+    border-radius: 20px;
+    position: absolute;
+    top: 105%;
+}
+#spotlight .bottom ul{
+}
+#spotlight .bottom ul li.box{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    border-radius: 5px;
+    height: 30px;
+    width: 20%;
+    padding: 10px;
+    background-color: #fff;
+    justify-content: space-between;
+}
+#spotlight .bottom ul li:last-child{
+    margin-right: 0;
+}
+#spotlight .bottom ul li a{
+    font-size: 13px;
+    color: #4F3527;
+}
+#spotlight .bottom ul li.button{
+    display: flex;
+    align-items: center;
+}
+#spotlight .bottom ul li a.button{
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #2B1B12;
+}
+#container{
+    padding-bottom: 5rem;
+}
+#container .wrapper{
+
+}
+#container .container{
+    display: flex;
+    justify-content: space-between;
+}
+#container .container .left{
+    width: 100%;
+    margin-right: 4rem;
+}
+#container .container .right{
+    width: 100%;
+}
+#container .container .right h1{
+    font-size: 35px;
+    color: #4F3527;
+    margin-bottom: 2rem;
+}
+#container .container .right p{
+    font-size: 20px;
+    margin-bottom: 3rem;
+    color: #4F3527;
+}
+#container .container .right span.box{
+
+}
+#container .container .right .box ul{
+
+}
+#container .container .right .box ul li{
+    margin-right: 3rem;
+    line-height: 2rem;
+}
+#container .container .right .box ul li:last-child{
+    margin-right: 0;
+}
+#container .container .right .box ul li a{
+    display: block;
+    color: #4F3527;
+    font-size: 10px;
+}
+#container .container .right .box ul li a.text{
+    font-size: 30px;
+    color: #4F3527;
+}
+#choose{
+    padding-bottom: 3rem;
+}
+#choose .wrapper{
+
+}
+#choose div.container{
+
+}
+#choose .container .top{
+
+}
+#choose .container .top h1{
+    text-align: center;
+    font-size: 30px;
+    color: #2B1B12;
+    margin-bottom: 2rem;
+}
+#choose .container .top p{
+   text-align: center;
+    color: #4F3527;
+    margin-bottom: 4rem;
+}
+#choose .container .bottom{
+
+}
+#choose .container .bottom ul{
+    flex-wrap: wrap;
+    display: flex;
+}
+#choose .container .bottom ul li{
+    width: 19%;
+    background-color:#DDC7BB;
+    margin-right: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+#choose .container .bottom ul li:last-child{
+    margin-right: 0;
+}
+#choose .container .bottom ul li span.img{
+    display: block;
+    width: 15%;
+    padding: 10px;
+    background-color: #f8e8e8;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+#choose .container .bottom ul li span.box{
+    
+}
+#choose .container .bottom ul li span.box h4{
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+#choose .container .bottom ul li span.box p{
+    font-size: 13px;
+    font-family:'Montserrat-Light' ;
+}
+#popular{
+    padding-bottom: 5rem;
+}
+#popular div.top h1{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 4rem;
+    color: #4F3527;
+}
+#popular .wrapper{
+
+}
+#popular .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#popular .container div.box{
+    margin-right: 2rem;
+    width: 31.4%;
+}
+#popular .container div.box:last-child{
+    margin-right: 0;
+}
+#popular .container div.box div.top{
+    background-image: url(../image/Residences.1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 350px;
+    border-radius: 30px 30px 0 0;
+}
+#popular .container div.box div.one{
+    background-image: url(../image/Residences.2.png);
+}
+#popular .container div.box div.bottam{
+    background-color: #DDC7BB;
+    padding: 15px;
+    border-radius: 0 0 30px 30px;
+}   
+#popular .container div.box div.bottam span.box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+#popular .container div.box div.bottam .box a.img{
+    display: block;
+    width: 5%;
+    margin-right: 5px;
+}
+#popular .container div.box div.bottam .box h6{
+    font-size: 13px;
+    color: #4F3527;
+}
+#popular .container div.box div.bottam span.rooms{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+#popular .container div.box div.bottam span.rooms li{
+    display: flex;
+    align-items: center;
+}
+#popular .container div.box div.bottam span.rooms li:last-child{
+    margin-right: 0;
+}
+#popular .container div.box div.bottam span.rooms li a{
+    color: #4F3527;
+    font-size: 13px;
+}
+#popular .container div.box div.bottam span.rooms li a.img{
+    background-color: #fff;
+    margin-right: 10px;
+}
+#popular .container div.box div.bottam span.rooms li a.text{
+
+}
+#popular .container div.box div.bottam span.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#popular .container div.box div.bottam span.buttons a.button{
+    font-size: 13px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #2B1B12;
+    color: #fff;
+}
+#popular .container div.box div.bottam span.buttons a.price{
+    font-size: 13px;
+    color: #4F3527;
+}
+#about{
+    padding-bottom: 5rem;
+    background-color: #f8e8e8;
+}
+#about .wrapper{
+
+}
+#about .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#about div.top h1{
+    text-align: center;
+    color: #2B1B12;
+    font-size: 35px;
+    padding: 3rem 0;
+}
+#about .container div.box{
+    width: 31.4%;
+    margin-right: 2rem;
+}
+#about .container div.box:last-child{
+    margin-right: 0;
+}
+#about .container div.box div.top{
+    background-image: url(../image/Review-bg.1.png);
+    width: 100%;
+    padding-bottom: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+}
+#about .container div.box div.one{
+    background-image: url(../image/Review-bg.2.png);
+}
+#about .container div.box div.three{
+    background-image: url(../image/Review-bg.3.png);
+}
+#about .container div.box div.bottom{
+    background-color: #DDC7BB;
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+}
+#about .container div.box div.bottom span.profile{
+}
+#about .container div.box div.bottom .profile li{
+    
+}
+#about .container div.box div.bottom .profile li span.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#about .container div.box div.bottom .profile li span.user .box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+#about .container div.box div.bottom .profile li span.user a{
+    display: block;
+    color: #4F3527;
+    font-size: 15px;
+}
+#about .container div.box div.bottom .profile li span.user a.small{
+    font-size: 13px;
+}
+#about .container div.box div.bottom .profile li span.user .box a.profile{
+    margin-right: 15px;
+}
+#about .container div.box div.bottom .profile li span.user .star{
+    display: flex;
+    align-items: center;
+    padding: 3px 5px;
+    background-color: #fff;
+}
+#about .container div.box div.bottom .profile li span.user .star a.img{
+    margin-right: 5px;
+}
+#about .container div.box div.bottom .profile span.bottom{
+}
+#about .container div.box div.bottom .profile span.bottom p{
+    font-size: 13px;
+    color: #4F3527;
+}
+#about div.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0 0 0;
+}
+#about .bottom ul li{
+    margin-right: 3rem;
+}
+#about .bottom ul li:last-child{
+    margin-right: 0;
+}
+#from{
+    padding-bottom: 5rem;
+}
+#from .wrapper{
+
+}
+#from .content{
+
+}
+#from .content .top h1{
+    font-size: 30px;
+    color: #2B1B12;
+    text-align: center;
+    padding: 3rem 0;
+}
+#from .middle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+#from .middle ul{
+   
+}
+#from .middle ul li{
+    display: flex;
+    align-items: center;
+}
+#from .middle ul li a.img{
+    display: block;
+    width: 8%;
+}
+#from .middle ul li a.one{
+    display: block;
+    width: 15%;
+}
+#from .middle ul li a{
+    font-size: 13px;
+    color: #4F3527;
+}
+#from .middle ul li:last-child{
+    margin-right: 0;
+}
+#from .middle ul li{
+    margin-right: 3rem;
+}
+#from form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#from form input{
+    outline: none;
+    border: none;
+    background-color: #DDC7BB;
+}
+#from form .input-box{
+    width: 30%;
+    padding: 10px;
+    background-color: #DDC7BB;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+#from form .input-box a.icon{
+    margin-right: 10px;
+}
+#from form a.button{
+    padding:10px 30px;
+    background-color: #2B1B12;
+    border-radius: 5px;
+    color: #fff;
+}
+footer{
+    background-color: #f8e8e8;
+    padding: 3rem 0 5rem 0;
+} 
+footer .wrapper{
+
+}
+footer .content{
+    display: flex;
+}
+footer .content ul{
+}
+footer .content .left p{
+    color: #4F3527;
+}
+footer .content ul li.logo h1.left{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+footer .content ul li a{
+    display: block;
+}
+footer .content ul.social{
+    display: block;
+}
+footer .content ul.social li{
+    display: flex;
+}
+footer .content ul.social li a{
+    display: block;
+}
+footer .content .left{
+    margin-right: 8rem;
+}
+footer .content .right{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .content .right ul{
+    margin-right: 5rem;
+}
+footer .content .right ul li h4{
+    font-size: 20px;
+    color: #4F3527;
+    margin-bottom: 1rem;
+}
+footer .content .right ul li a{
+    font-size: 15px;
+    color: #4F3527;
+    margin-bottom: 1rem;
+}
+footer .content .right ul li a:last-child{
+    margin-bottom: 0;
+}
+footer .content .right ul.social li a.icon{
+    margin-right: 1rem;
+}
+@media screen and (max-width: 1440px) {
+    #spotlight .bottom{
+        top: 123%;
+    }
+    #home header .middle ul li a{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    #spotlight .bottom {
+        top: 100%;
+        width: 58%;
+    }
+    #choose .container .bottom ul li{
+        width: 18%;
+    }
+    #popular .container div.box{
+        width: 31%;
+    }
+    #popular .container div.box div.top{
+        padding-bottom: 305px;
+    }
+    #about .container div.box{
+        width: 31%;
+    }
+    footer .content .right ul{
+        margin-right: 2.9rem;
+    }
+}
+@media screen and (max-width: 1080px) {
+    #spotlight .bottom ul li a.button{
+        padding: 15px 25px;
+    }
+    #spotlight .bottom{
+        top: 90%;
+    }
+    #home div.box{
+        padding-bottom: 4rem;
+    }
+    #spotlight .meain .left{
+        padding-top: 6rem;
+    }
+    #choose .container .bottom ul li {
+        width: 17.2%;
+    }
+    #popular .container div.box {
+        width: 30.8%;
+    }
+    #popular .container div.box div.top {
+        padding-bottom: 255px;
+    }
+    #about .wrapper{
+        margin: 0 2rem;
+    }
+    footer .content{
+        display: block;
+    }
+    footer .content .left{
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    footer .content .right ul{
+        margin-right: 0;
+        width: 25%;
+    }
+}
+@media screen and (max-width: 980px) {
+    #home header .middle ul{
+        display: none;
+    }
+    #spotlight .meain .left{
+        padding-top: 3rem;
+    }
+    #spotlight .bottom{
+        margin-left: 0;
+        width: 75%;
+    }
+    #home{
+        padding-bottom: 9rem;
+    }
+    #spotlight .meain .left h1{
+        font-size: 40px;
+    }
+    #spotlight .meain .left p{
+        font-size: 13px;
+    }
+    #spotlight .bottom {
+        top: 78%;
+    }
+    #container .container .right h1{
+        font-size: 25px;
+    }
+    #container .container .right p{
+        font-size: 13px;
+    }
+    #container .container .right .box ul li{
+        margin-right: 1rem;
+    }
+    #choose .container .bottom ul li {
+        width: 40.6%;
+    }
+    #choose .container .bottom ul li:nth-child(1){
+        margin-bottom: 1rem;
+    }
+    #choose .container .bottom ul li:nth-child(2){
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    #popular .container div.box {
+        width: 47.5%;
+        margin-bottom: 2rem;
+    }
+    #popular .container div.box:nth-child(2){
+        margin-right: 0;
+    }
+    #popular .container div.box:last-child{
+        margin-bottom: 0;
+    }
+    #about .container div.box {
+        width: 45.4%;
+        margin-bottom: 2rem;
+    }
+    #about .container div.box:last-child {
+        margin-bottom: 0;
+    }
+    #about .container div.box div.bottom .profile span.bottom p{
+        font-size: 10px;
+    }
+    #about div.bottom ul{
+        display: none;
+    }
+    #from form .input-box{
+        width: 50%;
+    }
+    #from .content .top h1{
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    #home div.box{
+        padding: 0 2rem;
+        padding-bottom: 5rem;
+    }
+    #spotlight .bottom{
+        display: none;
+    }
+    #home{
+        padding-bottom: 5rem;
+    }
+    #container .wrapper{
+        margin: 0 2rem;
+    }
+    #container .container .left{
+        margin-right: 2rem;
+    }
+    #container .container .right p{
+        margin-bottom: 2rem;
+    }
+    #choose .container .bottom ul li {
+        width: 38.3%;
+    }
+    #popular .container div.box{
+        width: 100%;
+    }
+    #popular div.top h1{
+        font-size: 28px;
+        padding-bottom: 3rem;
+    }
+    #popular .container div.box:first-child{
+        margin-right: 0;
+    }
+    #choose .container .top p{
+        font-size: 13px;
+        margin-bottom: 2rem;
+    }
+    #about .container div.box:nth-child(2){
+        margin-right: 0;
+    }
+    #about .container div.box{
+        width: 47%;
+    }
+    #about .container div.box div.bottom .profile li span.user a{
+        font-size: 13px;
+    }
+    #about .container div.box div.bottom .profile li span.user a.small{
+        font-size: 10px;
+    }
+    footer .wrapper{
+        margin: 0 2rem;
+    }
+}
+@media screen and (max-width: 640px) {
+    #spotlight .meain .right{
+        display: none;
+    }
+    #spotlight .meain .left{
+        width: 325px;
+    }
+    #home header .right ul li a.search{
+        display: none;
+    }
+    #home header .right ul li a.user{
+        display: none;
+    }
+    #container .container{
+        display: block;
+    }
+    #container .container .left{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    #choose .container .bottom ul li {
+        width: 35.3%;
+    }
+    #choose .wrapper{
+        margin: 0 2rem;
+    }
+    #about .container div.box {
+        width: 100%;
+    }
+    #about .container div.box:first-child {
+        margin-right: 0;
+    }
+    #from .middle ul li{
+        margin-right: 1rem;
+    }
+    #from .middle ul li{
+        width: 62%;
+    }
+    #from .wrapper{
+        margin: 0 2rem;
+    }
+    #from .middle ul{
+        display: none;
+        margin-bottom: 0;
+    }
+    #from form{
+        display: block;
+    }
+    #from form .input-box{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    #from .content .top h1{
+        padding-bottom: 0;
+    }
+    footer .content .right ul li a{
+        font-size: 13px;
+    }
+    footer .content .right ul{
+        width: 35%;
+    }
+    footer .content .right ul:nth-child(1){
+        margin-bottom: 2rem;
+    }
+    footer .content .right ul:nth-child(2){
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 540px) {
+    #choose .container .top p{
+        font-size: 10px;
+        margin-bottom: 3rem;
+    }
+    #choose .container .top h1{
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    #spotlight .meain .left h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #spotlight .meain .left p{
+        font-size: 10px;
+        margin-bottom: 3rem;
+    }
+    #about{
+        padding-bottom: 1rem;
+    }
+    #choose .container .bottom ul li{
+        width: 100%;
+    }
+    #choose .container .bottom ul li:nth-child(1){
+        margin-right: 0;
+    }
+    #choose .container .bottom ul li:nth-child(3){
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    #popular .wrapper{
+        margin: 0 2rem;
+    }
+    #choose .container .top p{
+        font-size: 8px;
+        margin-bottom: 2rem;
+    }
+    #popular div.top h1{
+        font-size: 18px;
+        padding-bottom: 2rem;
+    }
+    #about div.top h1{
+        font-size: 25px;
+    }
+    #from .content .top h1{
+        font-size: 18px;
+    }
+    footer .content .left p{
+        font-size: 13px;
+    }
+    footer .content .right ul{
+        width: 50%;
+    }
+}
